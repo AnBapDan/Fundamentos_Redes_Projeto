@@ -1,0 +1,50 @@
+93313 93020
+01234 56789
+
+IPV4 public network -> 200.113.120.0/25     (2^7)-2 = 126
+
+
+
+DMZ -> 32 + 1 + prefix + broadcast -> 35 -> 64            /26
+Datacenter -> 10 + 1 + prefix + broadcast -> 13 -> 16     /28
+Video -> 7 + 2 + prefix + broad - > 11-> 16               /28
+
+Admin -> 2 + 2 + prefix +broad ->  6 -> 8                 /29
+
+Engineering -> 5 + 2 + prefix + broad -> 9                /28
+
+Router1 -> 5 + 1 + prefix + broad -> 8                    /29
+-----------------------------------------
+ZZZ -> hosts + gateways +prefix+ broadcast
+
+<-------------------------------------------------------------------->
+Ipv4 privado -> 10.130.0.0/16  //todas as ligaçoes têm ip privado
+
+DMZ		/24
+Datacenter	/24
+Video		/24
+Marketing	/24
+Admin		/24
+Engineering	/24
+
+
+RouterA 1
+	2
+
+Router1 1
+	2
+
+
+
+
+
+
+
+IPv6 global -> 2100:0:0:3000::/60 2^68 endereços
+
+
+
+
+
+
+OldBuilding -> 192.168.2.0/23
